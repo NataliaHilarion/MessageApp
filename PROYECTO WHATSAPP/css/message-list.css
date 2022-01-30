@@ -1,0 +1,16 @@
+
+@import './message.css';
+@import './date.css';
+
+
+.message-list{
+  flex-grow: 1;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-image: linear-gradient( to top, rgba(227, 220, 214, 0.3), transparent), url(../images/fondo-chat.jpg);
+
+
+}

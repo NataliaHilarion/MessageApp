@@ -1,0 +1,11 @@
+.userList-search{
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex: 1;
+
+}
+
+.userList-input{
+  border: 2px solid blue;
+
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MessageApp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="layout">
+
+    <div class="user-list">
+      <div class="userList-header">
+        <div class="userList-User">
+          <img class="user-principal" src="./images/user-principal.jpg" width="48" height="48" alt="user-principal"
+            title="user-principal">
+        </div>
+      </div>
+      <div class="userList-search">
+        <form class="search" action="" role="search" aria-label="Buscar o iniciar un nuevo chat">
+          <span aria-label="Buscar chat" title="buscar chat">
+            <i class="icon-search-active" aria-hidden="true"></i>
+          </span>
+          <input type="search" placeholder="Buscar o iniciar un nuevo chat" title="Buscar o iniciar un nuevo chat">
+        </form>
+      </div>
+
+
+      <div class="userList-contact">
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/user.jpg" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">Josefa</span>
+              <span class="details-day">Hoy</span>
+            </p>
+            <span class="contact-message">Siii, de hecho ya realicé hasta el proyecto del curso...</span>
+          </div>
+        </div>
+
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/ingrid-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">Ingrid</span>
+              <span class="details-day">Viernes</span>
+            </p>
+            <span class="contact-message">ya me vacune contra la omicron, me la pusieron en...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/jan-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">Jan </span>
+              <span class="details-day">Jueves</span>
+            </p>
+            <span class="contact-message">se paso la clase para el otro sabado, ahora si tengo...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/alexa-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">Alexa</span>
+              <span class="details-day">Jueves</span>
+            </p>
+            <span class="contact-message">me toco repetirme la clase como mil veces porque...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/dionisio-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">Dionisio</span>
+              <span class="details-day">Jueves</span>
+            </p>
+            <span class="contact-message">las diapositivas las envie a sus correos para que es...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/mariano-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">Mariano</span>
+              <span class="details-day">Miercoles</span>
+            </p>
+            <span class="contact-message">tarde o temprano la disciplina superara a la intelige...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/andres-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">Andres</span>
+              <span class="details-day">Miercoles</span>
+            </p>
+            <span class="contact-message">ayer estuve en el partido de Colombia vs Peru pero...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="https://cdn.discordapp.com/avatars/807679589643714580/a017b793f487429bb0e32b0ea2a3d5cd.webp?size=100"  width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">NoTeRindas</span>
+              <span class="details-day">Miercoles</span>
+            </p>
+            <span class="contact-message">te hemos enviado la clase grabada del CSS Master...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/mercado-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">MercadoLibre</span>
+              <span class="details-day">Martes</span>
+            </p>
+            <span class="contact-message">Hemos enviado tu compra a la direccion que aparec...</span>
+          </div>
+        </div>
+        <div class="userList-contactUSer">
+          <img class="contact-image" src="./images/latam-avatar.png" width="48" height="48" alt="avatar">
+          <div class="contact-details">
+            <p>
+              <span class="details-name">LATAM Airlines</span>
+              <span class="details-day">Martes</span>
+            </p>
+            <span class="contact-message">Con base en tu experiencia con el Asistente virtual,...</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="chat">
+
+      <header class="header">
+        <div class="header-primary">
+          <div class="user">
+            <img class="user-avatar" src="./images/user.jpg" width="48" height="48" alt="Josefa" title="avatar ">
+            <p>
+              <span class="user-name">Josefa</span>
+              <span class="user-status">En Línea</span>
+            </p>
+          </div>
+        </div>
+        <div class="header-secondary">
+          <button class="button" aria-label="seacrh" title="search">
+            <i class="icon-search-active " aria-hidden="true"></i>
+          </button>
+
+        </div>
+      </header>
+
+
+      <div class="message-list">
+
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text">Siii, de hecho ya realicé hasta el proyecto del curso</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">11:47 am</span>
+            <span class="message-status is-dobleCheck"></span>
+
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">Hola Nata!. Si pudiste verte la clase del curso que te mencione?</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">11:46 am</span>
+          </div>
+        </div>
+
+        <div class="date">Viernes</div>
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text"> :) </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:33 am</span>
+            <span class="message-status is-dobleCheck"></span>
+
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text"> Si! es bueno practicar lo que se aprende. Me alegra haberte ayudado #NoTeRindas!
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:34 am</span>
+          </div>
+        </div>
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text">Claro! definitivamente tengo que repetirme esa clase.</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:33 am</span>
+            <span class="message-status is-dobleCheck"></span>
+
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">El paso a paso esta en:
+              <a href="https://leonidasesteban.com/aprender/flexbox-componentes/creando-una-fuente-personalizada-con-iconos"
+                target="_blank">https://leonidasesteban.com/aprender/flexbox-componentes/creando-una-fuente-personalizada-con-iconos</a>
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:32 am</span>
+          </div>
+        </div>
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text">Muchas Gracias!, no recordaba como era.</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:31 am</span>
+            <span class="message-status is-dobleCheck"></span>
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">el tamaño del icono lo modificas con font-size, porque ahora se maneja como
+              una fuente
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:30 am</span>
+
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">y listo ahora haz la prueba, crea un botón y dentro de este la etiqueta i
+              y coloca la clase con los nombres de los fonts por ejemplo
+              icon-search y te debe aparecer ahí mismo </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:30 am</span>
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">En ese mismo archivo icon.css no olvides cambiarle la ruta en los @fontFace
+              ya que los iconos están en la carpeta fonts que previamente copiaste.
+              Es decir, sal de la carpeta css e ingresa a la de fonts = (../fonts) </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:29 am</span>
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">luego en VSC abres el archivo que se llama styles.css
+              seleccionas todo con Ctrl + A y copias y pegas en un nuevo archivo .css llamado icon.css
+
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:29 am</span>
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">Los cargas en donde dice: IconMoon App , los seleccionas todos y das click en
+              generar Font.
+              Luego descomprimes el .zip que se llama IconMoon copias y pegas en tu proyecto la carpeta que se llama
+              Fonts
+
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:28 am</span>
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">despues ve a esta página <a href="https://icomoon.io/" target="_blank">
+                https://icomoon.io/</a> </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:27 am</span>
+          </div>
+        </div>
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">Hola Nata! </p>
+            <p class="message-text">Por supuesto! primero descarga de Figma los iconos en .svg
+              guardalos en una carpeta</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:26 am</span>
+          </div>
+        </div>
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text"> Tengo una duda. Tu sabes cómo puedo poner un icono en un botón con CSS?
+              No lo recuerdo.
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:20 am</span>
+            <span class="message-status is-dobleCheck"></span>
+
+          </div>
+        </div>
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text">Hola Josefita, cómo estás</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">10:20 am</span>
+            <span class="message-status is-dobleCheck"></span>
+
+          </div>
+        </div>
+
+        <div class="date">Jueves</div>
+
+      </div>
+
+    </div>
+
+    <div class="actions-list">
+      <div class="action-list--icons">
+        <button aria-label="icons" title="icons">
+          <i class="icon-smile" aria-hidden="true"></i>
+        </button>
+        <button aria-label="attached" title="attached">
+          <i class="icon-paperclip" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="action-list--input">
+        <input type="text" placeholder="Escribe un mensaje">
+      </div>
+      <div class="action-list--audio">
+        <button aria-label="audio" title="audio">
+          <i class="icon-mic" aria-hidden="true"></i>
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
