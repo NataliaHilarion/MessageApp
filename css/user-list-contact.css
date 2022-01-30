@@ -1,6 +1,7 @@
 .userList-contact{
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 
 }
 
@@ -12,8 +13,12 @@
   block-size: var(--actionsSize);
 }
 
-.userList-contactUSer:nth-of-type(1){
+.userList-contactUSer:hover{
   background-color: var(--grey-4);
+}
+
+.userList-contactUSer:active{
+  transform: scale(.98);
 }
 
 .contact-image{
