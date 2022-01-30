@@ -1,8 +1,0 @@
-.user-list{
-  grid-area: user-list;
-  /* border: 4px solid green; */
-    overflow: auto;
-    grid-row-end: span 2;
-}
-
-
