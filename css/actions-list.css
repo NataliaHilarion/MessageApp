@@ -1,0 +1,71 @@
+
+.actions-list{
+    background: var(--grey-4);
+    /* border: 2px solid blue; */
+    grid-area: actions;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.action-list--icons{
+    /* background-color: yellow; */
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+
+}
+
+.action-list--input{
+    /* background-color: violet; */
+    display: flex;
+    flex: 1;
+    border: none;
+    margin-block-start: 1.5rem ;
+    margin-block-end: 1.5rem ;
+
+}
+
+.action-list--input input{
+   background-color: var(--white);
+   flex: 1;
+    border: none;
+    padding-inline-end: .5rem;
+    padding-inline-start: 1.5rem;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    border-radius: 3rem;
+    outline: none;
+}
+
+.action-list--audio {
+    /* background-color: lightblue; */
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+
+}
+
+.action-list--audio button{
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.action-list--icons button{
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+
+.actions-list button:active{
+    transform: scale(.95);
+}
